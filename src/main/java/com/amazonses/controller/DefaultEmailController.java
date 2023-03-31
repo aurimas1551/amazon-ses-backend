@@ -30,8 +30,8 @@ import com.amazonses.service.ReceivingEmailService;
 @RequestMapping("api/")
 public class DefaultEmailController {
 
-	private static String userKey = "AKIAIMNFZX65GNBBVQFQ";
-	private static String userSecret = "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";
+	private static String userKey = "";
+	private static String userSecret = "";
 	private static String userRegion = "eu-central-1";
 	private static String configSet = "TestReikalavimai";
 	private static String senderEmail = "aurimas1551@gmail.com";
